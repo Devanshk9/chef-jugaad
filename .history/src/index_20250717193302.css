@@ -229,11 +229,6 @@ ul.ingredients-list > li {
   bottom: 20px;         
   text-align: center;
   padding: 0.5rem;   
-  color: #6B7280;
   background: rgba(255,255,255,0.8);  
-  font-size: 0.6rem;
-}
-.linko{
-    text-decoration: none;
-    color: inherit;
+  font-size: 0.8rem;
 }

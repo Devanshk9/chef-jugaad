@@ -94,7 +94,7 @@ async function getRecipe() {
             {loading
     ? <span className="loader" aria-label="Generating"><SpinnerRoundFilled size={40} thickness={80} speed={87} color="rgba(0, 0, 0, 1)" />Generating...</span>
     : null}
-        <span className='madeby'><a className='linko' href="https://www.linkedin.com/in/devansh-khetan-027681176/">Made by Devansh Khetan</a></span>
+        <span className='madeby'>Made by <i><a href="https://www.linkedin.com/in/devansh-khetan-027681176/">Devansh Khetan</a></i></span>
         </main>
     )
 }

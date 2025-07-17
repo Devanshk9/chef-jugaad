@@ -233,7 +233,6 @@ ul.ingredients-list > li {
   background: rgba(255,255,255,0.8);  
   font-size: 0.6rem;
 }
-.linko{
-    text-decoration: none;
-    color: inherit;
+.madeby > a{
+  font-style: none;
 }

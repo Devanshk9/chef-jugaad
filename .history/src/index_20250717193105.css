@@ -223,17 +223,12 @@ ul.ingredients-list > li {
   justify-content: center;
 }
 .madeby {
-  position: fixed;   
-  left: 0;           
+  position: fixed;   /* take it out of normal flow and pin it */
+  left: 0;           /* span all the way across */
   right: 0;
-  bottom: 20px;         
+  bottom: 30px;         /* 0px from the bottom edge */
   text-align: center;
-  padding: 0.5rem;   
-  color: #6B7280;
-  background: rgba(255,255,255,0.8);  
-  font-size: 0.6rem;
-}
-.linko{
-    text-decoration: none;
-    color: inherit;
+  padding: 0.5rem;   /* optional padding */
+  background: rgba(255,255,255,0.8);  /* optional background so it’s legible */
+  font-size: 0.8rem;
 }
