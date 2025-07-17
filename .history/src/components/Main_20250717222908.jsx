@@ -92,7 +92,7 @@ async function getRecipe() {
             </section>}
             {ingredients.length > 0 && recipe && <Recipe recipe={recipe} />}
             {loading
-    ? <span className="loader" aria-label="Generating"><SpinnerRoundFilled size={25} thickness={40} speed={87} color="rgba(0, 0, 0, 1)" />Generating...</span>
+    ? <span className="loader" aria-label="Generating"><SpinnerRoundFilled size={40} thickness={80} speed={87} color="rgba(0, 0, 0, 1)" />Generating...</span>
     : null}
         </main>
     )
